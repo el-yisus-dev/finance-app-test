@@ -1,6 +1,6 @@
 import type { NextFunction, Request, Response } from "express"
 
-import { ApiError } from "../api.error.js";
+import { ApiError } from "../utils/api.error.js";
 import type { Role } from "../types/User.js";
 
 export const verifyRole =
